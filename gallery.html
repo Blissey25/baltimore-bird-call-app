@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bird Call Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+  background-image: url('cartoonBG.jpg');
+            
+        }
+    </style>
+</head>
+<body>
+<center>
+      <h2 style="border:2px solid Orange; background-color:rebeccapurple;">Bird Call Gallery</h2>
+<p style="border:2px solid Violet; background-color:rebeccapurple;">Click the picture to play each birds call.</p>
+<button id="player" type="button"
+  onclick="javascript:toggleSound();">
+  <img src="img/american_robin.jpg" height="150" width="150">
+</button>
+<audio id="audio">
+  <source src="Robin.mp3" type="audio/mp3">
+</audio>
+   <p style="color:brown; background-color:azure"><b>American Robin</b></p> 
+
+<script type="text/javascript">
+function toggleSound() {
+  var audioElem = document.getElementById('audio');
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
+    </script>
+
+
+<button id="player2" type="button"
+  onclick="javascript:toggleSound2();">
+  <img src="img/raven.jpg" width="180">
+</button>
+<audio id="audio2">
+  <source src="raven.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Common Raven</b></p>
+<script type="text/javascript">
+function toggleSound2() {
+  var audioElem2 = document.getElementById('audio2');
+  if (audioElem2.paused)
+    audioElem2.play();
+  else
+    audioElem2.pause();
+}
+    </script>
+
+  <button id="player3" type="button"
+  onclick="javascript:toggleSound3();">
+  <img src="img/oriole_male.jpg" width="160" height=140>
+</button>
+<audio id="audio3">
+  <source src="Oriole.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Baltimore Oriole</b></p>
+<script type="text/javascript">
+function toggleSound3() {
+  var audioElem3 = document.getElementById('audio3');
+  if (audioElem3.paused)
+    audioElem3.play();
+  else
+    audioElem3.pause();
+}
+      </script>
+      
+ <button id="player4" type="button"
+  onclick="javascript:toggleSound4();">
+  <img src="img/Blue_Jay.jpg" width="180">
+</button>
+<audio id="audio4">
+  <source src="blueJay.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Blue Jay</b></p>
+<script type="text/javascript">
+function toggleSound4() {
+  var audioElem4 = document.getElementById('audio4');
+  if (audioElem4.paused)
+    audioElem4.play();
+  else
+    audioElem4.pause();
+}
+</script> 
+    
+    <button id="player5" type="button"
+  onclick="javascript:toggleSound5();">
+  <img src="img/Brown_headed_Cowbird.jpg" width="180">
+</button>
+<audio id="audio5">
+  <source src="cowbird.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Brown Headed Cowbird</b></p>
+<script type="text/javascript">
+function toggleSound5() {
+  var audioElem5 = document.getElementById('audio5');
+  if (audioElem5.paused)
+    audioElem5.play();
+  else
+    audioElem5.pause();
+}
+</script>
+    
+    <button id="player6" type="button"
+  onclick="javascript:toggleSound6();">
+  <img src="img/Dark-eyed%20Junco.jpg" width="180">
+</button>
+<audio id="audio6">
+  <source src="junco.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Dark-Eyed Junco</b></p>
+<script type="text/javascript">
+function toggleSound6() {
+  var audioElem6 = document.getElementById('audio6');
+  if (audioElem6.paused)
+    audioElem6.play();
+  else
+    audioElem6.pause();
+}
+</script>
+    
+   <button id="player7" type="button"
+  onclick="javascript:toggleSound7();">
+  <img src="img/Eastern_Screech_Owl.jpg" width="180">
+</button>
+<audio id="audio7">
+  <source src="owl.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Eastern Screech Owl</b></p>
+<script type="text/javascript">
+function toggleSound7() {
+  var audioElem7 = document.getElementById('audio7');
+  if (audioElem7.paused)
+    audioElem7.play();
+  else
+    audioElem7.pause();
+}
+</script>
+    
+ <button id="player8" type="button"
+  onclick="javascript:toggleSound8();">
+  <img src="img/European_Starling_c22-38-257_l.jpg" width="180">
+</button>
+<audio id="audio8">
+  <source src="starling.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>European Starling</b></p>
+<script type="text/javascript">
+function toggleSound8() {
+  var audioElem8 = document.getElementById('audio8');
+  if (audioElem8.paused)
+    audioElem8.play();
+  else
+    audioElem8.pause();
+}
+</script>
+    
+    <button id="player9" type="button"
+  onclick="javascript:toggleSound9();">
+  <img src="img/Herring_Gull.jpg" width="180">
+</button>
+<audio id="audio9">
+  <source src="seagull.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Herring Gull</b></p>
+<script type="text/javascript">
+function toggleSound9() {
+  var audioElem9 = document.getElementById('audio9');
+  if (audioElem9.paused)
+    audioElem9.play();
+  else
+    audioElem9.pause();
+}
+</script> 
+    
+    <button id="player10" type="button"
+  onclick="javascript:toggleSound10();">
+  <img src="img/House_Finch.jpg" width="180">
+</button>
+<audio id="audio10">
+  <source src="finch.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>House Finch</b></p>
+<script type="text/javascript">
+function toggleSound10() {
+  var audioElem10 = document.getElementById('audio10');
+  if (audioElem10.paused)
+    audioElem10.play();
+  else
+    audioElem10.pause();
+}
+</script>
+    
+    <button id="player11" type="button"
+  onclick="javascript:toggleSound11();">
+  <img src="img/House_Sparrow.jpg" width="180">
+</button>
+<audio id="audio11">
+  <source src="sparrow.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>House Sparrow</b></p>
+<script type="text/javascript">
+function toggleSound11() {
+  var audioElem11 = document.getElementById('audio11');
+  if (audioElem11.paused)
+    audioElem11.play();
+  else
+    audioElem11.pause();
+}
+</script>
+    
+    <button id="player12" type="button"
+  onclick="javascript:toggleSound12();">
+  <img src="img/morning_dove.jpg" width="180">
+</button>
+<audio id="audio12">
+  <source src="dove.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Morning Dove</b></p>
+<script type="text/javascript">
+function toggleSound12() {
+  var audioElem12 = document.getElementById('audio12');
+  if (audioElem12.paused)
+    audioElem12.play();
+  else
+    audioElem12.pause();
+}
+</script>
+    
+    <button id="player13" type="button"
+  onclick="javascript:toggleSound13();">
+  <img src="img/Northern_Cardinal.jpg" width="180">
+</button>
+<audio id="audio13">
+  <source src="cardinal.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Northern Cardinal</b></p>
+<script type="text/javascript">
+function toggleSound13() {
+  var audioElem13 = document.getElementById('audio13');
+  if (audioElem13.paused)
+    audioElem13.play();
+  else
+    audioElem13.pause();
+}
+</script>
+    
+    <button id="player14" type="button"
+  onclick="javascript:toggleSound14();">
+  <img src="img/ovenbird.jpg" width="180">
+</button>
+<audio id="audio14">
+  <source src="ovenbird.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Ovenbird</b></p>
+<script type="text/javascript">
+function toggleSound14() {
+  var audioElem14 = document.getElementById('audio14');
+  if (audioElem14.paused)
+    audioElem14.play();
+  else
+    audioElem14.pause();
+}
+</script>
+    
+    <button id="player15" type="button"
+  onclick="javascript:toggleSound15();">
+  <img src="img/Red_winged_Blackbird.jpg" width="180">
+</button>
+<audio id="audio15">
+  <source src="blackbird.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Red Winged Blackbird</b></p>
+<script type="text/javascript">
+function toggleSound15() {
+  var audioElem15 = document.getElementById('audio15');
+  if (audioElem15.paused)
+    audioElem15.play();
+  else
+    audioElem15.pause();
+}
+</script>
+    
+    <button id="player16" type="button"
+  onclick="javascript:toggleSound16();">
+  <img src="img/Turkey_Vulture.jpg" width="180">
+</button>
+<audio id="audio16">
+  <source src="vulture.mp3" type="audio/mp3">
+</audio>    
+<p style="color:brown; background-color:azure"><b>Turkey Vulture</b></p>
+<script type="text/javascript">
+function toggleSound16() {
+  var audioElem16 = document.getElementById('audio16');
+  if (audioElem16.paused)
+    audioElem16.play();
+  else
+    audioElem16.pause();
+}
+</script>
+    
+    </center>
+</body>
+</html>
